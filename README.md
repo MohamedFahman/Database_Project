@@ -22,7 +22,7 @@ The online shopping website includes the following features:
 
 The online shopping website is built using the following technologies:
 
-- **Front-end**: HTML, CSS
-- **Database** : MySQL
-- **Back-end** : PHP
+- **Front-end**  : HTML, CSS
+- **Database**   : MySQL
+- **Back-end**   : PHP
 
