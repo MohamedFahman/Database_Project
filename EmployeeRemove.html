@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Online Shopping
+        </title>
+        <link rel = "icon" href = Logo.jpg type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="test.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="select_style.css" />
+
+
+
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logocontainer">
+              <img class="logoimg" src="LogoFinal.jpg" alt="Logo">
+              <h2>The largest online shopping platform in Sri Lanka.</h2>
+            </div>
+        
+            <ul class="login">
+              <li><a href="Login.html">Log in</a></li> 
+              <li><a href="Signup.html">Sign up</a></li>
+            </ul>
+        </div>
+
+           <ul class="NavigationBar">
+                <li class="active"><a href=Home.html> Home </a></li>
+                <li ><a href=Popular.html> Popular Categories </a></li>
+                <li ><a href=NewAddtion.html> New Additions </a></li>
+                <li ><a href=OnSale.html> On Sale </a></li>
+                <li ><a href=orderNow.html> Order Now </a></li>
+                <li ><a href=contacts.html> Contacts Us </a></li>
+                <li ><a href=Rating.html> Rating Us </a></li>
+            </ul>
+
+            <br><br><br>
+        <p class="center"> Remove a employee from the Database : </p>
+        <form action = "EmployeeRemove.php" method = "post">
+            <div class="form">  
+                <label for="EmployeeID">Employee ID : </label>   <br><br>
+                <input type="text" name="EmployeeID" class="input" required>        
+                <br><br><br>
+                <input type="checkbox" name="agree[]" value="agree" required > Agree to save changes <br><br><br>
+                <input type="submit" value=" Submit " class="input"> <br>
+            
+            </div>
+
+        </form>
+
+
+
+
+    <br>
+    <br>
+    </body>
+
+
+    <footer>
+        <p>&copy; 2023 Online Shopping, Sri Lanka </p>
+    </footer>
+
+</html>
+
+
+
